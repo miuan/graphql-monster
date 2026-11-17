@@ -7,6 +7,8 @@ import log, { setupLogLevel } from './services/log'
 import { frontendFromSchema } from './services/frontend/frontend'
 import { exportAs } from './services/backend/build'
 
+console.warn('WARNING: graphql-monster-builder is deprecated. Further development continues at https://github.com/crud-monster/builder')
+
 const parsedArguments = yargs
     .usage('Usage: $0 <command> [options] path/to/schema.file [desctination/folder]')
     .example('$0 -bd -d models.schema ../server', 'create server')

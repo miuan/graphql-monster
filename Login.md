@@ -1,5 +1,8 @@
 # Obtain Token
 
+> [!WARNING]
+> **Deprecated:** GraphQL Monster Builder is deprecated. Further development continues in [CRUD Monster Builder](https://github.com/crud-monster/builder). Use the new repository for ongoing development and new projects.
+
 1. [Admin Playground](#entity)
 1. [Login existing user](#entity)
 1. [Register new user](#model)

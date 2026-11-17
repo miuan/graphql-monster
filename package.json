@@ -1,6 +1,11 @@
 {
   "name": "graphql-monster-builder",
   "version": "0.1.7",
+  "description": "DEPRECATED: Further development continues at https://github.com/crud-monster/builder",
+  "homepage": "https://github.com/crud-monster/builder",
+  "bugs": {
+    "url": "https://github.com/crud-monster/builder/issues"
+  },
   "author": "Milan Medlik <milan.medlik@gmail.com>",
   "license": "MIT",
   "bin": "./bin/cli.js",

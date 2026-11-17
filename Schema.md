@@ -1,5 +1,8 @@
 # Schema Description
 
+> [!WARNING]
+> **Deprecated:** GraphQL Monster Builder is deprecated. Further development continues in [CRUD Monster Builder](https://github.com/crud-monster/builder). Use the new repository for ongoing development and new projects.
+
 1. [Model](#model)
 1. [Entity](#entity)
 1. [Fields](#fields)

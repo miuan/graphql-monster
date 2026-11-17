@@ -1,4 +1,15 @@
-# GraphQL Monster Builder
+# GraphQL Monster Builder (deprecated)
+
+> [!WARNING]
+> **Deprecated:** GraphQL Monster Builder is deprecated. Further development continues in [CRUD Monster Builder](https://github.com/crud-monster/builder). Use the new repository for ongoing development and new projects.
+
+New repository: [crud-monster/builder](https://github.com/crud-monster/builder)
+
+```sh
+git clone git@github.com:crud-monster/builder.git
+```
+
+The documentation below describes the deprecated project.
 
 Build server with CRUD with GraphQL and Rest API interface. With these features:
 
