@@ -1,5 +1,5 @@
-import logger from '../log'
-import { SchemaModel, SchemaModelMember } from './types'
+import logger from '@log'
+import { SchemaModel, SchemaModelMember } from '@common/types'
 const log = logger.getLogger('utils')
 
 export const searchModelsRelationsInModels = (relationName: string, models: SchemaModel[], exclude: string[] = []) => {

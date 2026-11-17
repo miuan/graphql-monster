@@ -1,5 +1,5 @@
 import { isExportDeclaration } from 'typescript'
-import { SchemaModel, SchemaModelMember, SchemaModelRelation } from '../../common/types'
+import { SchemaModel, SchemaModelMember, SchemaModelRelation } from '@common/types'
 import { constructMemberWithType, generateInputParamsForMutationModel, generateSchemaModel } from './schema'
 
 describe('schema', () => {

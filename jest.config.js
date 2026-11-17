@@ -1,8 +1,12 @@
+const { pathsToModuleNameMapper } = require('ts-jest')
+const { compilerOptions } = require('./tsconfig.json')
+
 process.env.GMB_TEST_RUN_ID ||= `${Date.now().toString(36)}_${process.pid.toString(36)}`
 
 module.exports = {
     verbose: true,
     preset: 'ts-jest',
+    moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, { prefix: '<rootDir>/' }),
     testEnvironment: 'node',
     maxWorkers: 2,
     globalTeardown: '<rootDir>/jest.teardown.cjs',

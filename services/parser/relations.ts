@@ -1,5 +1,5 @@
-import { SchemaModel, SchemaModelMember, SchemaModelRelationLinkNames, SchemaModelRelationType } from '../common/types'
-import { firstToLower, firstToUpper, getOnlyOneRelatedMember } from '../common/utils'
+import { SchemaModel, SchemaModelMember, SchemaModelRelationLinkNames, SchemaModelRelationType } from '@common/types'
+import { firstToLower, firstToUpper, getOnlyOneRelatedMember } from '@common/utils'
 
 export const setupModelsRelations = (models: SchemaModel[]) => {
     for (const model of models) {

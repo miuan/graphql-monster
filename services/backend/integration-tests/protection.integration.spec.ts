@@ -1,5 +1,5 @@
 import * as request from 'supertest'
-import { firstToLower, firstToUpper } from '../../common/utils'
+import { firstToLower, firstToUpper } from '@common/utils'
 import { disconnectFromServer, generateAndRunServerFromSchema, loadGraphQL } from './utils'
 
 console.log = jest.fn()

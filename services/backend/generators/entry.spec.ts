@@ -1,5 +1,5 @@
-import { SchemaModel, SchemaModelMember } from '../../common/types'
-import { getOnlyOneRelatedMember } from '../../common/utils'
+import { SchemaModel, SchemaModelMember } from '@common/types'
+import { getOnlyOneRelatedMember } from '@common/utils'
 import { createResolvers, genAddingAndRemovingsForModel, generateDataloadersForResolver } from './entry'
 
 const memberZero = {

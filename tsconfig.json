@@ -10,6 +10,20 @@
       "dom"
     ],
     "module": "commonjs",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@common/*": [
+        "services/common/*"
+      ],
+      "@log": [
+        "services/log"
+      ]
+    }
+  },
+  "ts-node": {
+    "require": [
+      "tsconfig-paths/register"
+    ]
   }
 }

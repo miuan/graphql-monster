@@ -1,10 +1,10 @@
-import { templateFileToText } from '../../common/files'
-import { SchemaModel, SchemaModelRelationType, StructureBackend, SchemaModelMember, SchemaModelType } from '../../common/types'
-import { firstToLower } from '../../common/utils'
+import { templateFileToText } from '@common/files'
+import { SchemaModel, SchemaModelRelationType, StructureBackend, SchemaModelMember, SchemaModelType } from '@common/types'
+import { firstToLower } from '@common/utils'
 
 const defaultMembers = ['createdAt', 'updatedAt', 'id']
 
-import logger from '../../log'
+import logger from '@log'
 import { BackendDirectory } from '../backendDirectory'
 const log = logger.getLogger('model')
 

@@ -1,4 +1,4 @@
-import { SchemaModel, SchemaModelRelation, SchemaModelType } from "../common/types"
+import { SchemaModel, SchemaModelRelation, SchemaModelType } from "@common/types"
 import { BackendDirectory } from "./backendDirectory"
 import { generateAll } from "./build"
 import {generateMongoModelToFile} from './generators/model'

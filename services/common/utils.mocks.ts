@@ -1,5 +1,4 @@
-import { testResolverUpdate } from "../backend/templates/__generated_resolvers_for_test__/testResolver_filter"
-import { SchemaModelMember, SchemaModel, SchemaModelRelationType } from "./types"
+import { SchemaModelMember, SchemaModel, SchemaModelRelationType } from "@common/types"
 
 export const modelUserWithTodoManyToManyRelation = {
     modelName: 'User',

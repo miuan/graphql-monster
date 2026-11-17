@@ -1,6 +1,6 @@
 import * as fs from 'fs'
-import {writeToFile} from './files'
-import { StructureItem } from './types'
+import {writeToFile} from '@common/files'
+import { StructureItem } from '@common/types'
 
 describe('files', () => {
     let existsSyncMock

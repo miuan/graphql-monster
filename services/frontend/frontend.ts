@@ -1,4 +1,4 @@
-import { templateFileToText } from '../common/files'
+import { templateFileToText } from '@common/files'
 import { getModelsFromSchema } from '../parser/scan'
 import * as fs from 'fs'
 import * as _ from 'lodash'

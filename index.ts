@@ -2,7 +2,7 @@ import * as yargs from 'yargs'
 
 // NOTE: loger need to be fist
 //       before any custom lib
-import log, { setupLogLevel } from './services/log'
+import log, { setupLogLevel } from '@log'
 
 import { frontendFromSchema } from './services/frontend/frontend'
 import { exportAs } from './services/backend/build'

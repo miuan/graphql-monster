@@ -1,4 +1,4 @@
-import { SchemaModel, SchemaModelMember, SchemaModelRelation, SchemaModelRelationType } from '../common/types'
+import { SchemaModel, SchemaModelMember, SchemaModelRelation, SchemaModelRelationType } from '@common/types'
 
 export const extractMemberFromLineParams = (member: SchemaModelMember, params) => {
     if (params === '@unique' || params === '@isUnique') {

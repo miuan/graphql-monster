@@ -12,7 +12,8 @@
   "scripts": {
     "prepublish": "npm run build",
     "preinstall": "npm run build",
-    "build": "tsc index.ts --target es2020 --module commonjs --skipLibCheck --outDir dist/",
+    "prebuild": "node -e \"require('fs').rmSync('dist', { recursive: true, force: true })\"",
+    "build": "tsc -p tsconfig.build.json && tsc-alias -p tsconfig.build.json",
     "postbuild": "npm run copy:templates && npm run copy:package",
     "copy:templates": "copyfiles -u ./services/backend/templates/* ./services/backend/templates/*/** ./dist/",
     "copy:package": "copyfiles ./package.json ./dist/",
@@ -35,7 +36,9 @@
     "ramda": "^0.27.1",
     "ts-node": "^10.9.2",
     "typescript": "~5.9.3",
-    "yargs": "^15.3.1"
+    "yargs": "^15.3.1",
+    "tsc-alias": "^1.9.10",
+    "tsconfig-paths": "^4.2.0"
   },
   "devDependencies": {
     "@koa/cors": "^5.0.0",

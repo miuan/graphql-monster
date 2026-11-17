@@ -1,5 +1,5 @@
 import { jsonWithoutCircularStructure } from '../backend/integration-tests/utils'
-import { SchemaModelMember, SYSTEM_MODELS, SYSTEM_TYPES } from '../common/types'
+import { SchemaModelMember, SYSTEM_MODELS, SYSTEM_TYPES } from '@common/types'
 import { setupRelationLinkNames } from './relations'
 import { getModelsFromSchema, extractMemberFromLine } from './scan'
 

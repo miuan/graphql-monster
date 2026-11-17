@@ -1,6 +1,6 @@
 import path = require('path')
-import * as files from '../common/files'
-import { StructureFrontend } from '../common/types'
+import * as files from '@common/files'
+import { StructureFrontend } from '@common/types'
 
 export const FRONTEND_STRUCTURE = {
     index: {

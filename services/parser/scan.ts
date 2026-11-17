@@ -10,12 +10,12 @@ import {
     MODEL_TYPES,
     SYSTEM_MODELS,
     SYSTEM_TYPES,
-} from '../common/types'
-import { MONGOSEE_RESERVED_WORDS } from '../common/constatns'
+} from '@common/types'
+import { MONGOSEE_RESERVED_WORDS } from '@common/constatns'
 import { extractMemberFromLineParams } from './members'
 import { setupModelsRelations } from './relations'
 import { addDefaultModelsAndMembers, connectedModelNameInUser, connectModelToUser, generateDefaultProtection } from './defaults'
-import { firstToUpper } from '../common/utils'
+import { firstToUpper } from '@common/utils'
 
 export const getModelsFromSchema = (schema): SchemaModel[] => {
     const rows = schema.split('\n').map((r) => r.trim())

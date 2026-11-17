@@ -1,5 +1,5 @@
-import { SchemaModel, SchemaModelMember } from '../../common/types'
-import { getOnlyOneRelatedMember } from '../../common/utils'
+import { SchemaModel, SchemaModelMember } from '@common/types'
+import { getOnlyOneRelatedMember } from '@common/utils'
 import { constructImports, constructMember } from './model'
 
 describe('model', () => {

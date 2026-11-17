@@ -1,6 +1,6 @@
-import {getOnlyOneRelatedMember, searchModelsRelationsInModels} from './utils'
-import {SchemaModel, SchemaModelMember} from './types'
-import { modelTodoWithUserManyToManyRelation, modelTodoWithUserManyToOneRelation, modelUserWithTodoManyToManyRelation, modelUserWithTodoOneToManyRelation, relationUserOnPress, relationUserOnTodo, relationUserOnWall } from './utils.mocks'
+import {getOnlyOneRelatedMember, searchModelsRelationsInModels} from '@common/utils'
+import {SchemaModel, SchemaModelMember} from '@common/types'
+import { modelTodoWithUserManyToManyRelation, modelTodoWithUserManyToOneRelation, modelUserWithTodoManyToManyRelation, modelUserWithTodoOneToManyRelation, relationUserOnPress, relationUserOnTodo, relationUserOnWall } from '@common/utils.mocks'
 
 describe('utils', () => {
 

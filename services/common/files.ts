@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-import loglevel from '../log'
+import loglevel from '@log'
 import { setupModelsRelations } from '../parser/relations';
 const log = loglevel.getLogger('files')
 
@@ -8,7 +8,7 @@ import {
   Structure,
   StructureBackend,
   StructureItem,
-} from './types';
+} from '@common/types';
 
 
 const globalConfig = {

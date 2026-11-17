@@ -4,7 +4,7 @@ import * as path from 'path'
 import { getModelsFromSchema } from '../../parser/scan'
 import { createService } from './service'
 import { createResolver } from './resolvers'
-import { SchemaModel } from '../../common/types'
+import { SchemaModel } from '@common/types'
 
 const lowerFirst = (name: string) => name[0].toLowerCase() + name.slice(1)
 

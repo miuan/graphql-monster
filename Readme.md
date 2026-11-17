@@ -45,6 +45,14 @@ Remove this targeted replacement once Swagger JSDoc itself depends on a patched 
 
 ## Development checks
 
+Builder source imports shared modules through `@common/*` (for example,
+`@common/types` and `@common/utils`) and `@log`. The aliases are defined in
+`tsconfig.json`, used by Jest and registered automatically for `ts-node`.
+`npm run build` uses `tsconfig.build.json` and rewrites aliases to relative
+imports with `tsc-alias`, so the compiled CLI runs directly in Node.js.
+Backend templates retain the generated project's own import paths.
+
+
 Use Node.js 22.18+ within the 22.x line, or Node.js 24.11+.
 
 ```sh

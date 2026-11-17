@@ -1,9 +1,9 @@
 import { ifError } from 'assert'
-import { schemaMutations, notMutationFields, schemaFilterStringValue, schemaFilterNumberValue } from '../../common/constatns'
+import { schemaMutations, notMutationFields, schemaFilterStringValue, schemaFilterNumberValue } from '@common/constatns'
 
-import { StructureBackend, SchemaModel, SchemaModelRelationType, SchemaModelMember, SchemaModelType, MODELS_NOT_HAVE_CREATE } from '../../common/types'
-import { firstToLower, firstToUpper, getOnlyOneRelatedMember } from '../../common/utils'
-import logger from '../../log'
+import { StructureBackend, SchemaModel, SchemaModelRelationType, SchemaModelMember, SchemaModelType, MODELS_NOT_HAVE_CREATE } from '@common/types'
+import { firstToLower, firstToUpper, getOnlyOneRelatedMember } from '@common/utils'
+import logger from '@log'
 import { BackendDirectory } from '../backendDirectory'
 const log = logger.getLogger('schema')
 

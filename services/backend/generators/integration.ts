@@ -1,9 +1,9 @@
-import { SchemaModel, SchemaModelMember, StructureBackend } from '../../common/types'
-import logger from '../../log'
+import { SchemaModel, SchemaModelMember, StructureBackend } from '@common/types'
+import logger from '@log'
 import { BackendDirectory } from '../backendDirectory'
 import * as _ from 'lodash'
 import { type } from 'os'
-import { firstToLower } from '../../common/utils'
+import { firstToLower } from '@common/utils'
 const log = logger.getLogger('model')
 
 const VARIABLE_CONFIG_SKIP = 'VARIABLE_CONFIG_SKIP'

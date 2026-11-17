@@ -1,5 +1,5 @@
-import { SchemaModel, SchemaModelProtection, SchemaModelProtectionParam, SchemaModelProtectionType, SchemaModelRelationType, SchemaModelType } from '../common/types'
-import { firstToLower } from '../common/utils'
+import { SchemaModel, SchemaModelProtection, SchemaModelProtectionParam, SchemaModelProtectionType, SchemaModelRelationType, SchemaModelType } from '@common/types'
+import { firstToLower } from '@common/utils'
 import { setupRelationLinkNames } from './relations'
 
 const DEFAULT_ADMIN_ROLE: SchemaModelProtectionParam = {
